@@ -1,0 +1,49 @@
+# Safety guardrail for rosandigit/ledsone-aios (a PUBLIC repository).
+#
+# Purpose: prevent accidental commits of credentials, environment files,
+# Amazon/PPC exports and commercially sensitive files.
+# Sources: CLAUDE.md Section 9 (secrets and credentials) and
+# Section 10 / SD-4 (no Amazon exports or commercially sensitive data).
+#
+# This file is a guardrail, not a guarantee. It does not stop `git add -f`,
+# and it does not affect files that are already tracked. The pre-commit review
+# in CLAUDE.md Section 11 still applies to every commit.
+
+# --- Credentials and secrets (CLAUDE.md Section 9) ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*credential*
+*credentials*
+*secret*
+*secrets*
+*token*
+*.token
+*password*
+*apikey*
+*api_key*
+*api-key*
+
+# --- Amazon / PPC exports and spreadsheets (SD-4) ---
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.ods
+*.numbers
+
+# --- Documents and archives that may hold exports or sensitive data (SD-4) ---
+*.pdf
+*.doc
+*.docx
+*.zip
+*.7z
+*.rar
+*.gz
+*.tar

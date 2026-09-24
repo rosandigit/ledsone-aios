@@ -1,0 +1,10 @@
+# Text and end-of-line settings for rosandigit/ledsone-aios.
+# CLAUDE.md Section 11: use UTF-8 and LF line endings.
+
+# Treat text files as text and store them with LF line endings.
+* text=auto eol=lf
+
+# Documentation and configuration files are always text with LF endings.
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf

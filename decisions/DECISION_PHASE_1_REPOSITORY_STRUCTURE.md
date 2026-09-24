@@ -138,8 +138,6 @@ Each needs its own design record and approval first:
 ## 7. Open `[VERIFY]` items
 
 - Storage location for Amazon exports and filled-in reports (baseline L1; SD-4).
-- Location of the execution/change log (`CLAUDE.md` Section 8) — proposed here
-  as `change-log/`, not yet approved.
 - GitHub usernames for any future `CODEOWNERS`.
 
 ## 8. Safety statement
