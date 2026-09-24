@@ -416,4 +416,4 @@ for governance changes is `[VERIFY]` (Repository Owner, baseline L12).
 | Repository | `rosandigit/ledsone-aios` |
 | Created | 2026-09-24 |
 | Source of baseline values | `phase-0/PHASE_0_BASELINE.md` (v1.0, commit `7a605d0`) |
-| Status | Draft — pending review and approval |
+| Status | Approved — 2026-09-24 |
