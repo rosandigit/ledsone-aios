@@ -293,8 +293,10 @@ If a value is not recorded in the baseline or in filed evidence, mark it
   before evidence is filed (Section 13).
 - Every approval and every executed change must be recorded in a decision or
   change log stating: date, who approved, who executed, what changed (old value,
-  new value), evidence cited, and the baseline section relied on. The log
-  location is `[VERIFY]` until approved.
+  new value), evidence cited, and the baseline section relied on.
+  `change-log/` is the approved repository location for execution/change
+  records, as approved by `decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md`
+  (Group 1).
 - Rollbacks are manual in Amazon (Change History) and must be logged the same
   way.
 - All baseline values are currently EVIDENCE-PENDING (baseline Section 4). Say
