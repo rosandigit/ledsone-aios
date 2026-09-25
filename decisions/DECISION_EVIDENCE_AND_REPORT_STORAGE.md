@@ -25,12 +25,12 @@
 
 ## 1. Decision
 
-Proposed: Amazon exports, source evidence files and filled-in PPC reports are
-stored in restricted company file storage, **not** in the public repository
+Amazon exports, source evidence files and filled-in PPC reports are stored in
+restricted company file storage, **not** in the public repository
 `rosandigit/ledsone-aios`. This repository holds only metadata and reference
 records about those files, and report templates with sent-log metadata.
 
-In detail, if approved:
+In detail:
 
 1. **Not in this repository.** Amazon exports, source evidence files and
    filled-in PPC reports must never be committed to `rosandigit/ledsone-aios`.
@@ -61,8 +61,8 @@ In detail, if approved:
   Section 9). Anything committed and pushed must be assumed visible to anyone,
   and remains in git history even if later deleted.
 - `CLAUDE.md` Section 8 requires evidence to be cited with source, report name,
-  date exported and date range, and states that the structure and location of
-  evidence must be approved before evidence is filed.
+  date exported and date range, and, before this decision, required the
+  structure and location of evidence to be approved before evidence is filed.
 - SD-4 (`CLAUDE.md` Section 10) forbids committing Amazon exports or
   commercially sensitive data without an approved decision stating where they
   may be stored.
@@ -71,9 +71,9 @@ In detail, if approved:
   need a storage location outside this repository.
 - `decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md` (APPROVED) makes
   Group 3 (`evidence/`, `reports/`) conditional on "an approved decision on where
-  exports and filled-in reports are stored" (Section 9), and lists that storage
-  location as an open `[VERIFY]` item (Section 7). This record is proposed to
-  answer that precondition.
+  exports and filled-in reports are stored" (Section 9), and listed that storage
+  location as an open `[VERIFY]` item (Section 7) until this decision. This
+  record answers that precondition.
 
 ## 3. Scope
 
@@ -104,15 +104,14 @@ In detail, if approved:
 |--------|-------------------|---------------|------------|----------|
 | — | — | — | — | — |
 
-None filed — EVIDENCE-PENDING. The proposed direction comes from the written
-instruction in the task of 2026-09-24. The repository's public visibility is
-recorded in `CLAUDE.md` Section 9.
+None filed — EVIDENCE-PENDING. The direction comes from the written
+instruction in the task of 2026-09-24; approval is recorded in Section 9. The
+repository's public visibility is recorded in `CLAUDE.md` Section 9.
 
 ## 6. Open `[VERIFY]` items
 
 - Whether exact bid and budget amounts in change records must also be kept in
-  the restricted storage (`change-log/README.md`) — outside this record's scope
-  unless added on approval.
+  the restricted storage (`change-log/README.md`) — outside this record's scope.
 
 ## 7. Safety statement
 
@@ -126,15 +125,15 @@ under this record:
 
 ## 8. Actions authorised
 
-**None while PROPOSED / PENDING APPROVAL.**
+This record is APPROVED, but it does not itself create or modify files.
 
-After this record is APPROVED, a separate explicitly approved task may create the
+This approval permits a separate explicitly approved task to create the
 Group 3 documentation files for `evidence/` and `reports/` listed in
 `decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md` (Section 5). Those files are
 documentation only: metadata and reference records, templates and sent-log
 metadata.
 
-Even after approval:
+Under this decision:
 
 - actual Amazon exports, source evidence files and completed reports remain
   outside the public repository, in the restricted company file storage;
