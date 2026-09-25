@@ -60,38 +60,36 @@ separate approved tasks.
 
 ```
 ledsone-aios/
-├── README.md                    existing — change requires approval by name
-├── CLAUDE.md                    existing — untouched
-├── .gitattributes               proposed
-├── .gitignore                   proposed
+├── README.md                    existing — updated (Group 2)
+├── CLAUDE.md                    existing — status line updated (Group 2)
+├── .gitattributes               created (Group 1)
+├── .gitignore                   created (Group 1)
 ├── phase-0/
-│   ├── README.md                proposed
+│   ├── README.md                created (Group 1)
 │   └── PHASE_0_BASELINE.md      existing — untouched
 ├── decisions/
 │   ├── README.md                existing, approved for this decision-record system
 │   ├── TEMPLATE_DECISION_RECORD.md               existing, approved template
 │   └── DECISION_PHASE_1_REPOSITORY_STRUCTURE.md  this approved record
 ├── change-log/
-│   ├── README.md                proposed
-│   └── TEMPLATE_CHANGE_RECORD.md proposed
+│   ├── README.md                created (Group 1)
+│   └── TEMPLATE_CHANGE_RECORD.md created (Group 1)
 ├── evidence/
-│   ├── README.md                proposed — storage decision approved
-│   └── TEMPLATE_EVIDENCE_RECORD.md proposed — storage decision approved
+│   ├── README.md                created (Group 3)
+│   └── TEMPLATE_EVIDENCE_RECORD.md created (Group 3)
 └── reports/
-    ├── README.md                proposed — storage decision approved
+    ├── README.md                created (Group 3)
     └── weekly/
-        ├── README.md            proposed — storage decision approved
-        └── TEMPLATE_WEEKLY_REPORT.md proposed — storage decision approved
+        ├── README.md            created (Group 3)
+        └── TEMPLATE_WEEKLY_REPORT.md created (Group 3)
 ```
 
-For every proposed item:
+For every item:
 
 - **Owner:** Repository Owner — `[VERIFY]` (baseline L12); maintained by the
   Coordinator (Sarujan; baseline Section 5).
-- **Status:** PROPOSED — not created. The three `decisions/` files are the
-  exception: they were created as part of the approved decision-record system
-  and are currently uncommitted on the feature branch. Their existence does not
-  mean any other proposed item is approved for creation (Section 9).
+- **Status:** Created on the feature branch `claude/happy-fermi-04tnrh`, each
+  group by a separate approved task (Section 9). Not yet merged to `main`.
 
 | Item | Purpose | Belongs there | Does not belong there |
 |------|---------|---------------|-----------------------|
@@ -126,9 +124,8 @@ Each needs its own design record and approval first:
    C2).
 3. A gap register would duplicate baseline Section 8 unless that section is
    formally superseded.
-4. `CLAUDE.md` metadata still reads "Draft — pending review and approval"
-   although it was approved. Correcting it requires approval naming
-   `CLAUDE.md`.
+4. `CLAUDE.md` metadata previously read "Draft — pending review and
+   approval"; it was corrected to "Approved — 2026-09-24" in Group 2.
 5. `main` shows none of the governance files until the feature branch is
    merged, which requires explicit approval (`CLAUDE.md` Section 11).
 6. `evidence/` and `reports/` conflict with SD-4 unless limited to templates and

@@ -289,11 +289,9 @@ If a value is not recorded in the baseline or in filed evidence, mark it
 
 - Every recommendation must cite the evidence it uses: **source, report name,
   date exported, date range covered** and file path.
-- No evidence folder exists yet. Evidence files are stored outside this
-  repository, in the location approved by
-  `decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`. The `evidence/` folder
-  for evidence records is created only by a separate approved task
-  (Section 13).
+- Evidence files are stored outside this repository, in the location approved
+  by `decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`. The `evidence/`
+  folder holds evidence records (metadata) only; see `evidence/README.md`.
 - Every approval and every executed change must be recorded in a decision or
   change log stating: date, who approved, who executed, what changed (old value,
   new value), evidence cited, and the baseline section relied on.

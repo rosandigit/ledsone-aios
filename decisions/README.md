@@ -20,8 +20,8 @@ approvals; Section 14 — authorising any automation).
 ## What does NOT belong here
 
 - Executed changes or rollbacks in Amazon. Those are execution records, kept
-  separate from approvals (`CLAUDE.md` Section 6). Their location is not yet
-  approved (`CLAUDE.md` Section 8: `[VERIFY]`).
+  separate from approvals (`CLAUDE.md` Section 6), and belong in
+  `change-log/`.
 - DRAFT recommendations, analysis or reports.
 - Amazon exports, performance data, customer data or commercially sensitive data
   (`CLAUDE.md` Section 10, SD-4).

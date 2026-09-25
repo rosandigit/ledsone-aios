@@ -34,9 +34,10 @@ may and may not do is defined in [`CLAUDE.md`](CLAUDE.md), not here.
 Each folder has its own `README.md` stating what belongs there and what does
 not.
 
-Further folders are planned in
-[`decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md`](decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md).
-They do not exist until a separate approved task creates them.
+All folders in the approved Phase 1 structure
+([`decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md`](decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md))
+now exist. Folders the record defers, such as `context/` and `skills/`, are
+created only after a separate approved decision and task.
 
 ## Rules and values
 
