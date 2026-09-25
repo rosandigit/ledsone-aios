@@ -1,9 +1,9 @@
 # DECISION — Evidence and Report Storage
 
-> **STATUS: PROPOSED / PENDING APPROVAL.**
-> This record is written for review. It is **not** approved, it is **not** a
-> business rule, and it authorises **nothing**. No folder, file or storage
-> location is created, chosen or permitted by it while it is PROPOSED.
+> **STATUS: APPROVED** — by Sarujan on 2026-09-25.
+> This record approves where evidence and reports are stored. It is **not** a
+> business rule, and it does not itself create any file or folder: the Group 3
+> files are created only by a separate approved task (Section 8).
 
 ---
 
@@ -13,11 +13,11 @@
 |-------|-------|
 | Decision ID | `DECISION_EVIDENCE_AND_REPORT_STORAGE` |
 | Title | Storage of Amazon exports, source evidence files and filled-in PPC reports |
-| Status | PROPOSED / PENDING APPROVAL |
+| Status | APPROVED |
 | Date proposed | 2026-09-24 |
 | Proposed by | AIOS, drafted on the direction given in the task of 2026-09-24 |
 | Approver | Sarujan |
-| Date approved | — |
+| Date approved | 2026-09-25 |
 | Supersedes | None |
 | Superseded by | — |
 
@@ -150,5 +150,5 @@ Even after approval:
 | Field | Value |
 |-------|-------|
 | Approver | Sarujan |
-| Date | — |
-| How approval was given | — |
+| Date | 2026-09-25 |
+| How approval was given | Written approval in the task on 2026-09-25 |
