@@ -31,8 +31,10 @@ later approved decision record in `decisions/` formally supersedes it.
 
 ## Owner
 
-Repository Owner — `[VERIFY]` (baseline, Limitation L12).
-Maintained by the Coordinator (Sarujan; baseline Section 5).
+Repository Owner — Sarujan
+([`decisions/DECISION_REPOSITORY_OWNER.md`](../decisions/DECISION_REPOSITORY_OWNER.md)).
+Maintained by the Coordinator (Sarujan; baseline Section 5). What this
+means is defined in the root [`README.md`](../README.md) (Owner).
 
 ## Status
 

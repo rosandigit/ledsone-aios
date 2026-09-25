@@ -1,7 +1,8 @@
 # TEMPLATE — Change Record
 
-Copy this file to `change-log/CHANGE_<YYYY-MM-DD>_<TOPIC>.md` and fill in every
-field. Where a value is unknown, write `[VERIFY]`. Never guess.
+Copy this file to `change-log/CHANGE_<YYYY-MM-DD>_<TOPIC>.md`, where the date
+is the execution date of the change, and fill in every field. Where a value is
+unknown, write `[VERIFY]`. Never guess.
 
 This template is not a change record. It records nothing and authorises
 nothing. Read `change-log/README.md` before filling it in, including the open
@@ -25,14 +26,23 @@ item on sensitive values.
 
 | Field | Value |
 |-------|-------|
-| Approved decision | `decisions/DECISION_<TOPIC>.md` |
-| Approver | As named in that decision |
-| Date approved | As stated in that decision |
+| Approval basis | Approved decision · Routine approval under an existing approved rule or authority · Required approval not obtained |
+| Approved decision | `decisions/DECISION_<TOPIC>.md`, or `—` if not applicable |
+| Rule or authority relied on | For a routine approval: the existing approved rule or authority that permits the action; otherwise `—` |
+| Approver | Name and role — as named in the decision, or of the person who gave the routine approval; `—` if not obtained |
+| Date approved | YYYY-MM-DD, or `—` if not obtained |
+| How approval was given | For a routine approval: how it was given; for a decision: `As recorded in that decision`; `—` if not obtained |
 | Approval tier (budget changes) | Tier from `phase-0/PHASE_0_BASELINE.md` Section 3.1, or `Not a budget change` |
 | Safety defaults relied on | `CLAUDE.md` SD-1 to SD-4, or `None` |
 
-If there is no approved decision, stop: the change must not be recorded as
-approved. See `change-log/README.md`.
+Formal decisions, policy changes, baseline changes and supersessions need an
+approved decision in `decisions/`. A routine PPC action may instead rely on an
+existing approved rule or authority, with the routine approval recorded above.
+
+If the required approval was not obtained, set "Approval basis" to
+`Required approval not obtained`, and treat the change as a governance
+exception, escalated according to the applicable approved governance rules.
+Never record the change as approved. See `change-log/README.md`.
 
 ## 3. What Was Changed
 

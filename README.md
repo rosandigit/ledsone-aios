@@ -48,8 +48,14 @@ disagree with either, they win.
 
 ## Owner
 
-Repository Owner — `[VERIFY]` (baseline, Limitation L12).
+Repository Owner — Sarujan
+([`decisions/DECISION_REPOSITORY_OWNER.md`](decisions/DECISION_REPOSITORY_OWNER.md)).
 Maintained by the Coordinator (Sarujan; baseline Section 5).
+
+"Maintained by the Coordinator" means the Coordinator keeps the documentation
+accurate and may propose corrections. It gives no approval authority: the
+Coordinator does not approve changes by holding that role, and the existing
+approval rules in [`CLAUDE.md`](CLAUDE.md) (Sections 4, 11 and 15) still apply.
 
 ## Status
 

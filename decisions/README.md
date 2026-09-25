@@ -45,9 +45,13 @@ approvals; Section 14 — authorising any automation).
 
 ## Owner
 
-Repository Owner — `[VERIFY]` (`phase-0/PHASE_0_BASELINE.md`, Limitation L12).
-Maintained by the Coordinator (Sarujan; baseline Section 5).
+Repository Owner — Sarujan
+([`decisions/DECISION_REPOSITORY_OWNER.md`](DECISION_REPOSITORY_OWNER.md)).
+Maintained by the Coordinator (Sarujan; baseline Section 5). What this
+means is defined in the root [`README.md`](../README.md) (Owner).
 
 ## Status
 
-Created 2026-09-24 — pending review.
+Approved 2026-09-24: this folder and its decision-record system (this README
+and `TEMPLATE_DECISION_RECORD.md`) were approved as part of the approved
+`decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md`.

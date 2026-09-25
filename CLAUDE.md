@@ -209,7 +209,7 @@ never sends email.
 | Queryability Reviewer | Sarujan |
 | Escalation authority | MD |
 | Budget approver up to £100/day | Jathukulan |
-| Repository Owner | `[VERIFY]` (baseline L12) |
+| Repository Owner | Sarujan (`decisions/DECISION_REPOSITORY_OWNER.md`, superseding baseline L12) |
 
 ### 3.11 Vendor AIOS (baseline 3.10)
 
@@ -407,7 +407,8 @@ it.
 ## 15. Changes to This File
 
 This file may be changed only through an explicitly approved task. The approver
-for governance changes is `[VERIFY]` (Repository Owner, baseline L12).
+for governance changes is the Repository Owner, Sarujan
+(`decisions/DECISION_REPOSITORY_OWNER.md`).
 
 ---
 

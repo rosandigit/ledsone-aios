@@ -1,7 +1,8 @@
 # TEMPLATE — Evidence Record
 
-Copy this file to `evidence/EVIDENCE_<YYYY-MM-DD>_<TOPIC>.md` and fill in every
-field. Where a value is unknown, write `[VERIFY]`. Never guess.
+Copy this file to `evidence/EVIDENCE_<YYYY-MM-DD>_<TOPIC>.md`, where the date
+is the export date, and fill in every field. Where a value is unknown, write
+`[VERIFY]`. Never guess.
 
 This template is not evidence. It records nothing. An evidence record describes
 a file; it never contains the file's contents. Read `evidence/README.md` first.

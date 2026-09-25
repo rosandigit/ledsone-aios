@@ -42,8 +42,10 @@ sends email (`CLAUDE.md` Section 3.8).
 
 ## Owner
 
-Repository Owner — `[VERIFY]` (`phase-0/PHASE_0_BASELINE.md`, Limitation L12).
-Maintained by the Coordinator (Sarujan; baseline Section 5).
+Repository Owner — Sarujan
+([`decisions/DECISION_REPOSITORY_OWNER.md`](../decisions/DECISION_REPOSITORY_OWNER.md)).
+Maintained by the Coordinator (Sarujan; baseline Section 5). What this
+means is defined in the root [`README.md`](../README.md) (Owner).
 
 ## Status
 

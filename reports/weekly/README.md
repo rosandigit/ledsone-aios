@@ -10,8 +10,8 @@ here.
 
 - `TEMPLATE_WEEKLY_REPORT.md` — the structure of the weekly report, with
   placeholders only.
-- Sent-log records, one per report sent, named `SENT_<YYYY-MM-DD>.md` where the
-  date is the date sent. Each states only:
+- Sent-log records, one file per weekly report sent, named
+  `SENT_<YYYY-MM-DD>.md` where the date is the date sent. Each states only:
   - date sent;
   - recipient role;
   - channel;
@@ -35,8 +35,10 @@ here.
 
 ## Owner
 
-Repository Owner — `[VERIFY]` (`phase-0/PHASE_0_BASELINE.md`, Limitation L12).
-Maintained by the Coordinator (Sarujan; baseline Section 5).
+Repository Owner — Sarujan
+([`decisions/DECISION_REPOSITORY_OWNER.md`](../../decisions/DECISION_REPOSITORY_OWNER.md)).
+Maintained by the Coordinator (Sarujan; baseline Section 5). What this
+means is defined in the root [`README.md`](../../README.md) (Owner).
 
 ## Status
 
