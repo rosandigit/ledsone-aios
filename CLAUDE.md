@@ -81,7 +81,7 @@ where they appear. For each one:
 | SD-1 | Bid drafts stay within 15% in both directions | 3.3 | Baseline L6 |
 | SD-2 | Budget drafts on a tier boundary or open question go to the higher tier | 3.4 | Baseline L3, L4, L5 |
 | SD-3 | Non-budget drafts carry `Approver: [VERIFY]` and count as unapproved | 5 | Non-budget approver not recorded |
-| SD-4 | No Amazon exports or commercially sensitive data committed to this public repository without approval | 10 | Evidence storage location not approved |
+| SD-4 | No Amazon exports or commercially sensitive data committed to this public repository without approval | 10 | Evidence storage location approved in `decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`, which keeps SD-4 in force |
 
 ---
 
@@ -289,8 +289,11 @@ If a value is not recorded in the baseline or in filed evidence, mark it
 
 - Every recommendation must cite the evidence it uses: **source, report name,
   date exported, date range covered** and file path.
-- No evidence folder exists yet. Its structure and location must be approved
-  before evidence is filed (Section 13).
+- No evidence folder exists yet. Evidence files are stored outside this
+  repository, in the location approved by
+  `decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`. The `evidence/` folder
+  for evidence records is created only by a separate approved task
+  (Section 13).
 - Every approval and every executed change must be recorded in a decision or
   change log stating: date, who approved, who executed, what changed (old value,
   new value), evidence cited, and the baseline section relied on.

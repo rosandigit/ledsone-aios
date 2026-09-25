@@ -75,13 +75,13 @@ ledsone-aios/
 │   ├── README.md                proposed
 │   └── TEMPLATE_CHANGE_RECORD.md proposed
 ├── evidence/
-│   ├── README.md                proposed — needs storage decision first
-│   └── TEMPLATE_EVIDENCE_RECORD.md proposed — needs storage decision first
+│   ├── README.md                proposed — storage decision approved
+│   └── TEMPLATE_EVIDENCE_RECORD.md proposed — storage decision approved
 └── reports/
-    ├── README.md                proposed — needs storage decision first
+    ├── README.md                proposed — storage decision approved
     └── weekly/
-        ├── README.md            proposed — needs storage decision first
-        └── TEMPLATE_WEEKLY_REPORT.md proposed — needs storage decision first
+        ├── README.md            proposed — storage decision approved
+        └── TEMPLATE_WEEKLY_REPORT.md proposed — storage decision approved
 ```
 
 For every proposed item:
@@ -102,7 +102,7 @@ For every proposed item:
 | `decisions/` | Approvals, rejections and supersessions | Decision records; the template | Executed changes, drafts, raw data |
 | `change-log/` | Executed changes and rollbacks — stage 4 of `CLAUDE.md` Section 6, kept separate from approvals | Date, who executed, old and new value, link to the approving decision | Approvals, recommendations, credentials |
 | `evidence/` | Evidence **records** only (metadata), because the repository is public (SD-4) | Source, report name, export date, date range, where the file is stored | Actual exports, spend or sales figures, customer data |
-| `reports/`, `reports/weekly/` | Weekly report to the MD, Friday 4:00 PM (baseline 3.5) | A template; a record of sending (date, recipient) | Filled-in reports with figures, until a storage location is approved (SD-4) |
+| `reports/`, `reports/weekly/` | Weekly report to the MD, Friday 4:00 PM (baseline 3.5) | A template; a record of sending (date, recipient) | Filled-in reports with figures; these are stored in the approved location (`decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`; SD-4) |
 
 ### Deliberately deferred (not part of this proposal)
 
@@ -132,12 +132,12 @@ Each needs its own design record and approval first:
 5. `main` shows none of the governance files until the feature branch is
    merged, which requires explicit approval (`CLAUDE.md` Section 11).
 6. `evidence/` and `reports/` conflict with SD-4 unless limited to templates and
-   metadata until a storage location is approved.
+   metadata; the files themselves are stored in the location approved by
+   `decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`.
 7. A future `README.md` must link to, not restate, `CLAUDE.md` and the baseline.
 
 ## 7. Open `[VERIFY]` items
 
-- Storage location for Amazon exports and filled-in reports (baseline L1; SD-4).
 - GitHub usernames for any future `CODEOWNERS`.
 
 ## 8. Safety statement
