@@ -44,7 +44,4 @@ means is defined in the root [`README.md`](../README.md) (Owner).
 
 ## Status
 
-Created 2026-09-25 under the approved
-`decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md` (Group 3) and
-`decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`. Pending review.
-No evidence records exist yet.
+Created 2026-09-25 under the approved `decisions/DECISION_PHASE_1_REPOSITORY_STRUCTURE.md` (Group 3) and `decisions/DECISION_EVIDENCE_AND_REPORT_STORAGE.md`. Evidence records exist. The Phase 0 L1 metadata record is present for the verified evidence set.
